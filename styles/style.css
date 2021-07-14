@@ -15,7 +15,12 @@ body{
     background-color:#2D25A0;
     align-items: flex-start;
     justify-content: center;
+    transition: background-color 2s ease-in,transform 2s ease-in ;
     
+}
+.tournament-heading:hover{
+    background-color: rgb(94, 17, 46);
+    transform:translate(15px,15px);
 }
 .tournament-title{
     width: 50%;
@@ -37,6 +42,7 @@ body{
     margin-top: 153px;
     margin-bottom: 86px;
 }
+
 .watch-live{
    display: flex;
    flex-direction: row;
@@ -112,10 +118,10 @@ body{
     
 }
 .final-touch{
-    width: 50%;
     margin-left: 473px;
     width: 469px;
-    height: 309px;
+    height: 250px;
+    margin-bottom: 250px;
 }
 .end-part{
     color: #0A0826;
@@ -235,6 +241,44 @@ body{
     color: #000000;
     margin-top: 20px;
 
+}
+
+/* media queries */
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+   
+    .tournament-name, .watch-live, .demo-player img{
+        margin-left: 16px;
+    }
+    .demo-player img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .players, .all-highlights, .winner-paradise, .individual-awards, .last-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .tournament-heading,.all-highlights,.live-content{
+        flex-direction: column;
+        
+    }
+    
+    .best-moment,.final-touch{
+        margin-left: 0px;
+        margin-bottom: 90px;
+        background-color: red;
+    }
+    .best-moment img{
+        width: 328px;
+        height: 248px;
+    }
+    .team-name, .winner-pic{
+        width: 100%;
+    }
 }
 
 
