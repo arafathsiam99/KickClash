@@ -1,0 +1,240 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles or utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+     background-color: #FFFFFF;
+    width: 100%;
+}
+/* tournament-section */
+.tournament-heading{
+    display: flex;
+    background-color:#2D25A0;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.tournament-title{
+    width: 50%;
+}
+.tournament-name{
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-left: 167px;
+    margin-top: 198px;
+}
+.demo-player{
+    width: 50%;
+}
+.demo-player img{
+    width:  556.01px;
+    height: 438px;
+    margin-left: 200px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+.watch-live{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color:  #E02C6D;
+   color: #FFFFFF;
+   width: 140px;
+    height: 44px;
+    padding: 3px 18px;
+    margin-left: 170px;
+    margin-top: 24px;
+}
+.live-content{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.live-content a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.arrow-right{
+    width: 24px;
+    height: 24px; 
+    margin-left: 18px;
+}
+
+/* players style */
+.player-container{
+    margin-left: 195px;
+    margin-right: 210px;
+    margin-top: 70px;
+    width: 1050px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+   margin-left: 285px;
+}
+.player{
+     padding: 15px;
+    width: 300px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-top: 27px;
+    
+}
+.player-pic img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+
+}
+.player-bio{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+/* All Highlights styles */
+
+.all-highlights{
+    display: flex;
+    align-items: center;
+    margin-top: 165px;
+    
+}
+.final-touch{
+    width: 50%;
+    margin-left: 473px;
+    width: 469px;
+    height: 309px;
+}
+.end-part{
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+}
+.watch-now{
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color:  #E02C6D;
+   color: #FFFFFF;
+   width: 140px;
+    height: 44px;
+    padding: 3px 18px;
+    margin-top: 24px;
+}
+.best-moment{
+    width: 50%;
+    margin-left: 69px;
+}
+.best-moment img{
+    width: 567px;
+    height: 427px;  
+}
+/* winning team style */
+.winner-paradise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-name{
+    align-items: center;
+    margin-top: 100px;
+}
+.team-name h1{
+    text-align: center;
+}
+.team-name p{
+    text-align: center;
+}
+.argentina{
+    background-color:#2D25A0;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+.winner{
+    font-size: 40px;
+    background-image: linear-gradient(skyblue,white);
+    color: #291886;
+    
+}
+.winner-pic{
+    text-align: center;
+}
+.winner-pic img{
+    width: 50%;
+}
+ /* Award Giving Ceremony styles  */
+.award-giving-ceremony h1{
+    background-color: #291886;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.individual-awards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    
+}
+.player-details{
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-top: 60px;
+}
+.player-details h2{
+    color: #291886;
+    font-size: 30px;
+}
+.player-details p{
+    color: #291886;
+    font-size: 20px;
+}
+
+
+/* Footer style */
+
+
+.last-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 20px;
+    margin-top: 20px;
+}
+.contact i{
+    height: 32px;
+   width: 32px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.copyright{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+
+}
+
+
